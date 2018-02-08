@@ -138,7 +138,6 @@ public class BinaryManager {
         Log.send(file);
         aCompiler.init();
         aCompiler.start();
-
     }
 
     public static void launchProject() {
@@ -151,7 +150,6 @@ public class BinaryManager {
         aCompiler.input(createExecutableOutput());
         aCompiler.init();
         aCompiler.start();
-
     }
 
     public static void linkProject() {

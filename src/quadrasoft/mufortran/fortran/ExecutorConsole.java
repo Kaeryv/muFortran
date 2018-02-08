@@ -10,6 +10,8 @@ import java.awt.event.WindowListener;
 import java.io.BufferedWriter;
 import java.io.IOException;
 
+
+
 @SuppressWarnings("serial")
 public class ExecutorConsole extends JFrame implements KeyListener, WindowListener {
 
@@ -122,7 +124,7 @@ public class ExecutorConsole extends JFrame implements KeyListener, WindowListen
                 }
                 break;
             case KeyEvent.VK_ESCAPE:
-                // On ferme la fen�tre, le manager en sera notifi� et se videra
+                // On ferme la fenètre, le manager en sera notifi� et se videra
                 this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
                 break;
         }
