@@ -1,3 +1,2 @@
 # muFortran
 
-## What is µFortran
